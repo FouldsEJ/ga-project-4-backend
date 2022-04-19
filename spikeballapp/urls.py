@@ -15,10 +15,12 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
-from posts.views import ListView
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('posts/', ListView.as_view())
+    path('posts/', include("posts.urls")),
+    path('comments/', include("comments.urls")),
+    path('authentication/', include("jwt_auth.urls")),
+    path('likes/', include("likes.urls")),
 ]

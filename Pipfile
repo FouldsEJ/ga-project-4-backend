@@ -11,6 +11,8 @@ python-dotenv = "*"
 dj-database-url = "*"
 django-on-heroku = "*"
 django-cors-headers = "*"
+pyjwt = "*"
+django-countries = "*"
 
 [dev-packages]
 

@@ -51,6 +51,10 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'posts',
+    'comments',
+    'jwt_auth',
+    'django_countries',
+    'likes',
 ]
 
 MIDDLEWARE = [
@@ -96,7 +100,7 @@ if ENV != 'DEV':
 else:
      DATABASES['default'] =  {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'spikeballapp', # < --- make sure you chage this
+        'NAME': 'spikeball3', # < --- make sure you chage this
         'HOST': 'localhost',
         'PORT': 5432
     }
@@ -143,6 +147,18 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'jwt_auth.authentication.JWTAuthentication',
+    ],
+}
+
+
+AUTH_USER_MODEL = 'jwt_auth.CustomUser'
 
 CSRF_TRUSTED_ORIGINS = ['https://spikesquad.herokuapp.com']
 
