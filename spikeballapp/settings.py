@@ -55,6 +55,8 @@ INSTALLED_APPS = [
     'jwt_auth',
     'django_countries',
     'likes',
+    'chats',
+    'rooms',
 ]
 
 MIDDLEWARE = [
@@ -100,7 +102,7 @@ if ENV != 'DEV':
 else:
      DATABASES['default'] =  {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'spikeball3', # < --- make sure you chage this
+        'NAME': 'spikeball4', # < --- make sure you chage this
         'HOST': 'localhost',
         'PORT': 5432
     }

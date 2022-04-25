@@ -1,5 +1,5 @@
 from curses import reset_prog_mode
-from comments.serializers import CommentSerializer
+from comments.serializers import CommentSerializer, PopulatedCommentSerializer
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -12,7 +12,10 @@ from .models import Comment
 class CommentListCreate(APIView):
   def get(self, request):
     comments = Comment.objects.all()
-    serialized_comments = CommentSerializer(comments, many=True)
+    postid = self.request.query_params.get('postid')
+    if postid:
+      comments = comments.filter(post_id=postid)
+    serialized_comments = PopulatedCommentSerializer(comments, many=True)
     return Response(data=serialized_comments.data, status=status.HTTP_200_OK)
 
   def post(self, request):
@@ -46,5 +49,5 @@ class CommentRetrieveUpdateDelete(APIView):
     try:
       return Comment.objects.get(pk=pk)
     except Comment.DoesNotExist:
-      raise NotFound(detaul="can't find that comment")
+      raise NotFound(detail="can't find that comment")
 

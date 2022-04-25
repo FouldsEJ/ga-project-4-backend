@@ -1,9 +1,10 @@
 from django.contrib.auth import get_user_model
-from jwt_auth.serializers import UserSerializer
+from jwt_auth.serializers import PopulatedUserSerializer, UserSerializer
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import PermissionDenied
 from rest_framework.views import APIView
+from rest_framework.generics import ListAPIView
 from django.conf import settings
 import jwt
 from rest_framework.permissions import IsAuthenticated
@@ -52,7 +53,7 @@ class LoginView(APIView):
     dt = datetime.now() + timedelta(days=1)  
 
 
-    token = jwt.encode({'sub': user.id, 'exp': int(dt.strftime('%s'))}, settings.SECRET_KEY, algorithm='HS256')
+    token = jwt.encode({'sub': user.id, 'username': user.username, 'exp': int(dt.strftime('%s'))}, settings.SECRET_KEY, algorithm='HS256')
     return Response({'token': token, 'message': f'Welcome back {user.username}!'})
 
 
@@ -61,5 +62,19 @@ class CredentialsView(APIView):
     permission_classes = [IsAuthenticated,]
 
     def get(self, request):
-        serializer = UserSerializer(request.user)
+        serializer = PopulatedUserSerializer(request.user)
         return Response(serializer.data)
+
+
+class AllCredentialsView(APIView):
+  def get(self, request):
+    users = User.objects.all()
+    user_search = self.request.query_params.get('search')
+    user_id = self.request.query_params.get('userid')
+    if user_search:
+      users = users.filter(username__icontains=user_search)
+    if user_id:
+      users = users.filter(id=user_id)
+    serialized_users = PopulatedUserSerializer(users, many=True)
+    return Response(data=serialized_users.data, status=status.HTTP_200_OK)
+

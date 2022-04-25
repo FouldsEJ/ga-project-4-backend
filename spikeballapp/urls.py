@@ -23,4 +23,6 @@ urlpatterns = [
     path('comments/', include("comments.urls")),
     path('authentication/', include("jwt_auth.urls")),
     path('likes/', include("likes.urls")),
+    path('chats/', include("chats.urls")),
+    path('rooms/', include("rooms.urls")),
 ]

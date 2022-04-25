@@ -1,4 +1,7 @@
 from django.db import models
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 # Create your models here.
 class Post(models.Model):
@@ -8,7 +11,8 @@ class Post(models.Model):
   updated_datetime = models.DateTimeField(auto_now=True)
   image_url = models.CharField(max_length=200, blank=True)
   video_url = models.CharField(max_length=200, blank=True)
-  # created_by = models.ForeignKey(User, related_name='posts', on_delete=models.CASCADE)
+  created_by = models.ForeignKey(User, related_name='posts', on_delete=models.CASCADE)
 
   def __str__(self):
     return self.title
+
