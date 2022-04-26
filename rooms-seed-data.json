@@ -1,0 +1,53 @@
+[
+{
+  "model": "rooms.room",
+  "pk": 42,
+  "fields": {
+    "name": "Jules32",
+    "image": "https://res.cloudinary.com/efoulds24/image/upload/v1650918547/arhbano3my92ojo3cvcd.jpg",
+    "created_datetime": "2022-04-25T21:40:32.911Z",
+    "users": [
+      1,
+      10
+    ]
+  }
+},
+{
+  "model": "rooms.room",
+  "pk": 43,
+  "fields": {
+    "name": "SmoothOperator",
+    "image": "https://res.cloudinary.com/efoulds24/image/upload/v1650922203/astcxhzqbgsctkufmtdl.jpg",
+    "created_datetime": "2022-04-25T21:40:58.245Z",
+    "users": [
+      1,
+      11
+    ]
+  }
+},
+{
+  "model": "rooms.room",
+  "pk": 44,
+  "fields": {
+    "name": "ChillTime",
+    "image": "https://res.cloudinary.com/efoulds24/image/upload/v1650921666/rpopfwhmygfsjmd6oqvh.jpg",
+    "created_datetime": "2022-04-25T21:41:39.574Z",
+    "users": [
+      1,
+      9
+    ]
+  }
+},
+{
+  "model": "rooms.room",
+  "pk": 58,
+  "fields": {
+    "name": "LivingMyBestLife",
+    "image": "https://res.cloudinary.com/efoulds24/image/upload/v1650921567/ueyofsxfpc6nsajzaep6.jpg",
+    "created_datetime": "2022-04-26T08:00:34.024Z",
+    "users": [
+      14
+    ]
+  }
+}
+]

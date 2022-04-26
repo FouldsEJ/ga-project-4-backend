@@ -1,0 +1,90 @@
+[
+{
+  "model": "likes.like",
+  "pk": 144,
+  "fields": {
+    "post_id": 11,
+    "created_by": 14
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 145,
+  "fields": {
+    "post_id": 11,
+    "created_by": 15
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 146,
+  "fields": {
+    "post_id": 11,
+    "created_by": 9
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 147,
+  "fields": {
+    "post_id": 11,
+    "created_by": 16
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 148,
+  "fields": {
+    "post_id": 12,
+    "created_by": 10
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 149,
+  "fields": {
+    "post_id": 12,
+    "created_by": 17
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 156,
+  "fields": {
+    "post_id": 12,
+    "created_by": 1
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 157,
+  "fields": {
+    "post_id": 30,
+    "created_by": 14
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 158,
+  "fields": {
+    "post_id": 30,
+    "created_by": 17
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 159,
+  "fields": {
+    "post_id": 30,
+    "created_by": 15
+  }
+},
+{
+  "model": "likes.like",
+  "pk": 160,
+  "fields": {
+    "post_id": 30,
+    "created_by": 12
+  }
+}
+]

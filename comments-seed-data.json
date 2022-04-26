@@ -1,0 +1,112 @@
+[
+{
+  "model": "comments.comment",
+  "pk": 21,
+  "fields": {
+    "text": "This is terrible news!",
+    "created_datetime": "2022-04-25T20:50:27.528Z",
+    "updated_datetime": "2022-04-25T21:32:04.989Z",
+    "post_id": 12,
+    "created_by": 1
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 22,
+  "fields": {
+    "text": "Not a fan of this. Such a shame",
+    "created_datetime": "2022-04-25T21:32:19.756Z",
+    "updated_datetime": "2022-04-25T21:32:19.756Z",
+    "post_id": 12,
+    "created_by": 14
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 23,
+  "fields": {
+    "text": "Nothing will ever beat spikeball! It is the best!",
+    "created_datetime": "2022-04-25T21:32:51.501Z",
+    "updated_datetime": "2022-04-25T21:32:51.501Z",
+    "post_id": 12,
+    "created_by": 12
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 24,
+  "fields": {
+    "text": "Stick with us, we'll look after you!",
+    "created_datetime": "2022-04-25T21:33:09.256Z",
+    "updated_datetime": "2022-04-25T21:33:09.256Z",
+    "post_id": 12,
+    "created_by": 1
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 25,
+  "fields": {
+    "text": "That is insane! Some of those dives are unreal! Where do they get that level of elevation from.",
+    "created_datetime": "2022-04-25T21:33:45.927Z",
+    "updated_datetime": "2022-04-25T21:33:45.927Z",
+    "post_id": 11,
+    "created_by": 12
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 26,
+  "fields": {
+    "text": "Loved watching this. Taking inspiration for my next tournament on saturday!",
+    "created_datetime": "2022-04-25T21:34:09.835Z",
+    "updated_datetime": "2022-04-25T21:34:09.835Z",
+    "post_id": 11,
+    "created_by": 16
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 38,
+  "fields": {
+    "text": "Love this!",
+    "created_datetime": "2022-04-26T07:36:37.886Z",
+    "updated_datetime": "2022-04-26T07:36:37.886Z",
+    "post_id": 29,
+    "created_by": 1
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 39,
+  "fields": {
+    "text": "This is great! Thanks. I'm just starting out and can't wait to learn more about the game",
+    "created_datetime": "2022-04-26T07:44:58.542Z",
+    "updated_datetime": "2022-04-26T07:44:58.542Z",
+    "post_id": 30,
+    "created_by": 16
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 40,
+  "fields": {
+    "text": "Thanks! Awesome video",
+    "created_datetime": "2022-04-26T07:45:11.436Z",
+    "updated_datetime": "2022-04-26T07:45:11.436Z",
+    "post_id": 30,
+    "created_by": 10
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 41,
+  "fields": {
+    "text": "So simple and so fun!",
+    "created_datetime": "2022-04-26T07:45:23.852Z",
+    "updated_datetime": "2022-04-26T07:45:23.852Z",
+    "post_id": 30,
+    "created_by": 13
+  }
+}
+]

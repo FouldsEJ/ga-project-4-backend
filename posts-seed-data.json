@@ -1,0 +1,67 @@
+[
+{
+  "model": "posts.post",
+  "pk": 11,
+  "fields": {
+    "title": "Amazing rallies!",
+    "text": "This rallies are insane! I thought I was getting better, but I have a long way to go!",
+    "created_datetime": "2022-04-25T20:46:24.108Z",
+    "updated_datetime": "2022-04-25T20:47:54.954Z",
+    "image_url": "",
+    "video_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "created_by": 1
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 12,
+  "fields": {
+    "title": "The Slammer Rip Off",
+    "text": "I hate this! Another company trying to become spikeball! The quality of their nets are rubbish! DO NOT BUY!",
+    "created_datetime": "2022-04-25T20:50:09.658Z",
+    "updated_datetime": "2022-04-25T20:50:09.658Z",
+    "image_url": "https://finbin.net/wp-content/uploads/2018/03/Slammo-vs-Spikeball-review.png",
+    "video_url": "",
+    "created_by": 10
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 28,
+  "fields": {
+    "title": "Weekend fun!",
+    "text": "Checkout this awesome photo i captured at the weekend! It was some rally!",
+    "created_datetime": "2022-04-26T07:30:36.784Z",
+    "updated_datetime": "2022-04-26T07:46:54.554Z",
+    "image_url": "https://cdn.shopify.com/s/files/1/0152/1325/files/10724644_660120477455267_847779169_n.jpg?6650908782110365730",
+    "video_url": "",
+    "created_by": 17
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 29,
+  "fields": {
+    "title": "Spikebouy!",
+    "text": "I bought this floating adaption for spikeball sets and it arrived this week! Planning to use it this weekend in the pool with my friends. I hope its as good as it looks!",
+    "created_datetime": "2022-04-26T07:36:18.070Z",
+    "updated_datetime": "2022-04-26T07:36:18.070Z",
+    "image_url": "https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/A3MTQVB0A831Y/f5b552df-8a60-415d-b842-1bf4e499ca86._CR0,63,3375,2088_PT0_SX970__.jpg",
+    "video_url": "",
+    "created_by": 18
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 30,
+  "fields": {
+    "title": "Spikeball Explained",
+    "text": "Found this great explanatory video for new players. Its such a fun game and so easy to learn! Have a go!",
+    "created_datetime": "2022-04-26T07:37:51.925Z",
+    "updated_datetime": "2022-04-26T07:42:24.622Z",
+    "image_url": "",
+    "video_url": "https://www.wikihow.com/video/e/e9/Play+Spikeball+Step+0.360p.mp4",
+    "created_by": 1
+  }
+}
+]

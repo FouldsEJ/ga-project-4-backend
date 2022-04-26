@@ -1,0 +1,172 @@
+[
+{
+  "model": "chats.chat",
+  "pk": 26,
+  "fields": {
+    "text": "Hey, how are you?",
+    "created_datetime": "2022-04-25T21:42:06.682Z",
+    "created_by": 10,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 27,
+  "fields": {
+    "text": "Very well thanks, how are you?",
+    "created_datetime": "2022-04-25T21:42:18.880Z",
+    "created_by": 1,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 28,
+  "fields": {
+    "text": "Good. I'm well too thanks.",
+    "created_datetime": "2022-04-25T21:42:42.102Z",
+    "created_by": 10,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 29,
+  "fields": {
+    "text": "I came across your profile and saw we that you aren't too far away. Do you fancy meeting a few of my friends and I for a game next weekend?",
+    "created_datetime": "2022-04-25T21:43:23.977Z",
+    "created_by": 10,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 30,
+  "fields": {
+    "text": "Sure! Sounds great!",
+    "created_datetime": "2022-04-25T21:43:36.538Z",
+    "created_by": 1,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 31,
+  "fields": {
+    "text": "Where you thinking?",
+    "created_datetime": "2022-04-25T21:43:46.877Z",
+    "created_by": 1,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 32,
+  "fields": {
+    "text": "I hear the common near the town centre doesn't get too busy, so plenty of space!",
+    "created_datetime": "2022-04-25T21:44:20.290Z",
+    "created_by": 1,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 33,
+  "fields": {
+    "text": "Great idea! I was about to ask you if you knew of any good places.",
+    "created_datetime": "2022-04-25T21:44:53.141Z",
+    "created_by": 10,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 34,
+  "fields": {
+    "text": "What time?",
+    "created_datetime": "2022-04-25T21:45:02.539Z",
+    "created_by": 1,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 35,
+  "fields": {
+    "text": "How many friends are you bringing?",
+    "created_datetime": "2022-04-25T21:45:32.747Z",
+    "created_by": 1,
+    "room_id": 42
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 36,
+  "fields": {
+    "text": "Great meeting you at the tournament on Saturday!",
+    "created_datetime": "2022-04-25T21:46:02.227Z",
+    "created_by": 11,
+    "room_id": 43
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 37,
+  "fields": {
+    "text": "Do you fancy meeting again for some spike action some time soon?",
+    "created_datetime": "2022-04-25T21:46:27.875Z",
+    "created_by": 11,
+    "room_id": 43
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 38,
+  "fields": {
+    "text": "Hey mate! Ye sure! Saturday was great. You were a great opponent, we had some cracking rallies!",
+    "created_datetime": "2022-04-25T21:46:53.185Z",
+    "created_by": 1,
+    "room_id": 43
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 39,
+  "fields": {
+    "text": "Hello bud! How's things? Heading to the park this afternoon and wondered if you wanted to join for some fun with the spike ball lads!",
+    "created_datetime": "2022-04-25T21:47:34.688Z",
+    "created_by": 1,
+    "room_id": 44
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 40,
+  "fields": {
+    "text": "ABSOLUTELY! Count me in! What time?",
+    "created_datetime": "2022-04-25T21:48:04.625Z",
+    "created_by": 9,
+    "room_id": 44
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 41,
+  "fields": {
+    "text": "Great! We'll be there from 4.30pm!",
+    "created_datetime": "2022-04-25T21:48:23.015Z",
+    "created_by": 1,
+    "room_id": 44
+  }
+},
+{
+  "model": "chats.chat",
+  "pk": 42,
+  "fields": {
+    "text": "See you then!",
+    "created_datetime": "2022-04-25T21:48:34.127Z",
+    "created_by": 9,
+    "room_id": 44
+  }
+}
+]
